@@ -740,6 +740,9 @@ Small Device Styles
   display: block;
   clear: both;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 #menu {
   position: fixed;
@@ -811,6 +814,7 @@ Small Device Styles
   padding: 0;
   width: 100%; /* 让图片充满容器 */
   height: auto; /* 保持图片的宽高比 */
+  border: 0;
 }
 
 
