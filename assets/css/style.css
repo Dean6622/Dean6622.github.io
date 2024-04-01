@@ -794,14 +794,14 @@ html {
 }
 .carousel {
   overflow: hidden;
-  width: 95%; /* 设定轮播的宽度 */
-  max-width: 1000px; /* 可以设定一个最大宽度 */
-  margin: auto; /* 居中显示 */
+  width: 95%;
+  max-width: 1000px;
+  margin: auto;
 }
 
 .carousel-items {
   display: flex;
-  transition: transform 0.5s ease; /* 平滑过渡效果 */
+  transition: transform 0.5s ease;
 }
 
 .carousel-item {
@@ -812,8 +812,8 @@ html {
 
 .carousel-item img {
   padding: 0;
-  width: 100%; /* 让图片充满容器 */
-  height: auto; /* 保持图片的宽高比 */
+  width: 100%;
+  height: auto;
   border: 0;
 }
 

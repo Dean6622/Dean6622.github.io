@@ -10,13 +10,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const carouselContainer = document.querySelector('.carousel-items');
 
-    // 动态添加图片到轮播容器
-    images.forEach((imageSrc) => {
-        const imgElement = document.createElement('img');
-        imgElement.src = imageSrc;
+    vedio.forEach((vedioSrc) => {
+        const vedElement = document.createElement('img');
+        vedElement.src = vedioSrc;
         const carouselItem = document.createElement('div');
         carouselItem.className = 'carousel-item';
-        carouselItem.appendChild(imgElement);
+        carouselItem.appendChild(vedElement);
         carouselContainer.appendChild(carouselItem);
     });
 
@@ -30,6 +29,5 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.carousel-items').style.transform = 'translateX(' + offset + ')';
     }
 
-    // 每3秒切换一次图片
     setInterval(switchItem, 3000);
 });
