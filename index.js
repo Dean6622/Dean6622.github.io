@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const images = [
-        './docs/image/download.jpg',
-        './docs/image/download1.jpeg',
+    const media = [
+        './docs/vedio/Reader_Login.webm',
         './docs/image/download2.jpeg',
         './docs/image/download3.jpeg',
         './docs/image/download4.jpeg',
@@ -10,12 +9,46 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const carouselContainer = document.querySelector('.carousel-items');
 
-    vedio.forEach((vedioSrc) => {
-        const vedElement = document.createElement('img');
-        vedElement.src = vedioSrc;
+    media.forEach((mediaSrc, index) => {
         const carouselItem = document.createElement('div');
         carouselItem.className = 'carousel-item';
-        carouselItem.appendChild(vedElement);
+
+        if (mediaSrc.endsWith('.webm')) {
+            const videoElement = document.createElement('video');
+
+            if (index === 0) {
+                const playPauseBtn = document.getElementById('play-pause');
+                const icon = playPauseBtn.querySelector('i');
+
+                playPauseBtn.addEventListener('click', function() {
+                    if (videoElement.paused || videoElement.ended) {
+                        videoElement.play();
+                        icon.classList.remove('fa-play');
+                        icon.classList.add('fa-pause');
+                    } else {
+                        videoElement.pause();
+                        icon.classList.remove('fa-pause');
+                        icon.classList.add('fa-play');
+                    }
+                });
+            }
+
+            videoElement.setAttribute('controls', ''); // 可选，添加控件
+            videoElement.setAttribute('muted', ''); // 静音
+            videoElement.setAttribute('loop', ''); // 循环播放
+
+            const sourceElement = document.createElement('source');
+            sourceElement.src = mediaSrc;
+            sourceElement.type = 'video/webm';
+
+            videoElement.appendChild(sourceElement);
+            carouselItem.appendChild(videoElement);
+        } else {
+            const imgElement = document.createElement('img');
+            imgElement.src = mediaSrc;
+            carouselItem.appendChild(imgElement);
+        }
+
         carouselContainer.appendChild(carouselItem);
     });
 
@@ -28,6 +61,4 @@ document.addEventListener('DOMContentLoaded', function() {
         const offset = -index * 100 + '%';
         document.querySelector('.carousel-items').style.transform = 'translateX(' + offset + ')';
     }
-
-    setInterval(switchItem, 3000);
 });
