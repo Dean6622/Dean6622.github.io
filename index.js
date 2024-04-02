@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const media = [
         './docs/vedio/Reader_Login.webm',
-        './docs/image/download2.jpeg',
+        './docs/vedio/Reader_Booklist.webm',
         './docs/image/download3.jpeg',
         './docs/image/download4.jpeg',
         './docs/image/download5.jpeg'
