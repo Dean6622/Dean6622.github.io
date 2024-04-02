@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { src: './docs/vedio/Reader_Login.webm', info: 'Login as a reader' },
         { src: './docs/vedio/Reader_Booklist.webm', info: 'Your favourite books are all in one place' },
         { src: './docs/vedio/Search_filter.webm', info: 'Filter & search books' },
-        { src: './docs/vedio/Library_Login.webm', info: 'Login as a librarian' },
+        { src: './docs/vedio/librarian_login2.webm', info: 'Login as a librarian' },
         { src: './docs/vedio/Librarian_ModifyLibrary.webm', info: 'Modifying library as a librarian' }
     ];
 
