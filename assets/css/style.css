@@ -482,6 +482,10 @@ ol {
   padding-left: 20px;
 }
 
+li {
+  list-style: square;
+}
+
 dl dt {
   font-weight: bold;
 }
@@ -822,6 +826,10 @@ html {
   margin-top: 10px;
   margin-right: 30px;
   font-size: 21px;
+}
+
+.insights {
+  font-style: italic;
 }
 
 .carousel {
