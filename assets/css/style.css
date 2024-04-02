@@ -787,18 +787,25 @@ html {
   display: block;
 }
 #Overview_block {
-  background-color: #959da5;
+  background-color: lightgray;
   height: 500px;
 }
+
+#tutorials_text {
+  text-align: center;
+  margin-top: 50px;
+}
+
 #tutorial_block {
   background-color: #ccc;
   height: 500px;
   margin-top: 50px;
 }
+
 #Devs_Word {
-  background-color: #959da5;
+  background-color: lightgray;
   height: 500px;
-  margin-top: 50px;
+  margin-top: 250px;
 }
 .carousel {
   overflow: hidden;
@@ -849,5 +856,7 @@ html {
   margin-top: 15px;
   font-size: 25px;
 }
+
+
 
 /*# sourceMappingURL=style.css.map */

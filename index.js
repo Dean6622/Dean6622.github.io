@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
     const media = [
-        { src: './docs/vedio/Reader_Login.webm', info: 'Reader Login' },
-        { src: './docs/vedio/Reader_Booklist.webm', info: 'Reader Booklist' },
-        { src: './docs/vedio/Search_filter.webm', info: 'Search Filter' },
-        { src: './docs/vedio/Library_Login.webm', info: 'Librarian Login' },
-        { src: './docs/vedio/Librarian_ModifyLibrary.webm', info: 'Librarian Modify book' }
+        { src: './docs/vedio/Reader_Login.webm', info: 'Login as a reader' },
+        { src: './docs/vedio/Reader_Booklist.webm', info: 'Your favourite books are all in one place' },
+        { src: './docs/vedio/Search_filter.webm', info: 'Filter & search books' },
+        { src: './docs/vedio/Library_Login.webm', info: 'Login as a librarian' },
+        { src: './docs/vedio/Librarian_ModifyLibrary.webm', info: 'Modifying library as a librarian' }
     ];
 
     const carouselContainer = document.querySelector('.carousel-items');
