@@ -762,8 +762,24 @@ html {
   height: 200px;
 
 }
-#overview_text {
-  margin-top: 30px;
+
+#overview_heading {
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-top: 30px;
+}
+
+#users_heading {
+  margin-top: 10px;
+  margin-left: 50px;
+  padding-top: 10px;
+}
+
+.vision {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 18px;
 }
 
 .map_text {
@@ -792,7 +808,7 @@ html {
 }
 #Overview_block {
   background-color: lightgray;
-  height: 500px;
+  height: 470px;
 }
 
 #tutorials_text {
