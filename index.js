@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
             carouselItem.appendChild(videoElement);
         } else {
             const imgElement = document.createElement('img');
-            imgElement.src = mediaSrc.src; // 使用src
+            imgElement.src = mediaSrc.src;
             carouselItem.appendChild(imgElement);
         }
 
