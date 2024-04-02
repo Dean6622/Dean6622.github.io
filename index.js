@@ -52,13 +52,24 @@ document.addEventListener('DOMContentLoaded', function() {
         carouselContainer.appendChild(carouselItem);
     });
 
+    const prevBtn = document.getElementById('playback-backward');
+    const nextBtn = document.getElementById('playback-forward');
     let index = 0;
     const items = document.querySelectorAll('.carousel-item');
     const total = items.length;
 
-    function switchItem() {
-        index = (index + 1) % total;
+    function switchItem(direction) {
+        if (direction === 'next') {
+            index = (index + 1) % total;
+        } else if (direction === 'prev') {
+            index = (index - 1 + total) % total;
+        }
         const offset = -index * 100 + '%';
         document.querySelector('.carousel-items').style.transform = 'translateX(' + offset + ')';
+        document.querySelector('.carousel-items').style.transform = 'translateX(' + offset + ')';
     }
+
+    nextBtn.addEventListener('click', function() { switchItem('next'); });
+    prevBtn.addEventListener('click', function() { switchItem('prev'); });
 });
+
