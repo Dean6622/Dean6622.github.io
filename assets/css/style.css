@@ -393,6 +393,14 @@ footer a {
   text-decoration: underline;
 }
 
+.team_members {
+  color: white;
+}
+
+#published {
+  text-align: center;
+}
+
 em, cite {
   font-style: italic;
 }
