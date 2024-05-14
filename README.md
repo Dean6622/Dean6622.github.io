@@ -16,6 +16,7 @@ Bachelor of Science, Computer Science Year 4
 <strong>TECHNICAL SKILLS</strong>
 
 ***
+
 - Functional : Database Management, Back-end develop, Front-end develop
 - Language and Tools: Java, SQLite, C, C++, JavaScript, React, HTML5, Android Studio, Python
 
