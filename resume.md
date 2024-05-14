@@ -56,7 +56,6 @@ standards.
 Achievements:
 “Best Societal Hack Impact” – Agile Ace by Code 
 Monsters
-![avator](photo.jpg)
 
 <br>
 <br>
