@@ -14,6 +14,7 @@ Bachelor of Science, Computer Science Year 4
 <br>
 
 <strong>TECHNICAL SKILLS</strong>
+
 ***
 - Functional : Database Management, Back-end develop, Front-end develop
 - Language and Tools: Java, SQLite, C, C++, JavaScript, React, HTML5, Android Studio, Python
@@ -22,6 +23,7 @@ Bachelor of Science, Computer Science Year 4
 <br>
 
 <strong>PROJECT EXPERIENCE</strong>
+
 ***
 
 <strong>1. AGILE-ACE  [https://agile-ace.com/](url) </strong>
