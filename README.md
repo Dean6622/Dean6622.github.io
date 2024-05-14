@@ -14,6 +14,7 @@ Bachelor of Science, Computer Science Year 4
 <br>
 
 <strong>TECHNICAL SKILLS</strong>
+
 ***
 - Functional : Database Management, Back-end develop, Front-end develop
 - Language and Tools: Java, SQLite, C, C++, JavaScript, React, HTML5, Android Studio, Python
@@ -22,9 +23,10 @@ Bachelor of Science, Computer Science Year 4
 <br>
 
 <strong>PROJECT EXPERIENCE</strong>
+
 ***
 
-<strong>1. AGILE-ACE  https://agile-ace.com/ </strong>
+<strong>1. AGILE-ACE  [https://agile-ace.com/](url) </strong>
 
 Code Competition hosted by U of M 
 
@@ -61,7 +63,7 @@ Monsters
 <br>
 
 <strong>2. ANDROID APPLICATION FOR LIBRARY SYSTEM </strong> <br />
-https://alexandria-library.netlify.app/
+[https://alexandria-library.netlify.app/](url)
 
 Comp 3350 term project
 
