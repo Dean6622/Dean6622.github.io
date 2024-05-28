@@ -1,5 +1,5 @@
 <center><strong>Xiang Shi</strong></center>
-<center>Address: Winnipeg, Waverley st. | Phone: 431-996-7839 | Email: xiangshi6622@gmail.com</center>
+<center>Address: Winnipeg, Waverley st. | Phone: 431-996-7839 | Email: 15166885300@163.com</center>
 <br>
 <strong>EDUCATION</strong>
 
